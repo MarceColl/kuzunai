@@ -1,0 +1,39 @@
+{
+  "name": "kuzunai",
+  "version": "0.0.1",
+  "description": "Object pools to avoid garbage collection in latency-sensitive workloads (like games)",
+  "main": "lib/kuzunai.js",
+  "types": [
+    "lib/kuzunai.d.ts"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceColl/kuzunai.git"
+  },
+  "author": "Marce Coll <marce@dziban.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceColl/kuzunai/issues"
+  },
+  "homepage": "https://github.com/MarceColl/kuzunai#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "keywords": [
+    "pool",
+    "garbage-collection"
+  ],
+  "dependencies": {
+    "@types/jest": "^29.2.0",
+    "jest": "^29.2.2",
+    "ts-jest": "^29.0.3"
+  }
+}
